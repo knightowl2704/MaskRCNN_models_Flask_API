@@ -51,7 +51,7 @@ DEVICE = "/gpu:0"
 config = lkn.LinkedinBar()
 
 
-MODEL_PATH = './models/mask_rcnn_lkdbar_0030.h5'
+MODEL_PATH = './models/mask_rcnn_lkdbar_0030.h5'  #PATH TO YOUR MODEL
 class InferenceConfig(config.__class__):
     # Run detection on one image at a time
     GPU_COUNT = 1
