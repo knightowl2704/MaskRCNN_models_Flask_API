@@ -1,9 +1,14 @@
 # MaskRCNN_models_Flask_API
 Flask App Web server for MaskRCNN based models.
 
+**Tensorflow** : v1.15.0
+
+**Flask** : v1.1.1
+
 Move your model.h5 file into ./models/ and change the MODEL_PATH in Flaskapp.py. 
 * Run and test the API with POSTMAN.
 * Note: There is no web interface for the server so all the testing is to be done using POSTMAN only.
+
 
 
 <h2> For running over Google colab: </h2>
